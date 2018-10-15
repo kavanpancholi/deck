@@ -1,5 +1,8 @@
 'use strict';
 
+/* global __webpack_nonce__ */
+__webpack_nonce__ = btoa(OC.requestToken);
+
 // used for building a vendor stylesheet
 import 'ng-sortable/dist/ng-sortable.css';
 
